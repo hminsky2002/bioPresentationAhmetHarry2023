@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Awesome Presentation</title>
+    <title>Genetics, Obesity and Treatments</title>
     <link href="favicon.png" rel="icon" type="image/png"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <style type="text/css">
@@ -18,41 +18,133 @@
       .footnote {
         position: absolute;
         bottom: 3em;
-        right: 2em;
+        left: 2em;
       }
-      .footnote  a{
-        position: absolute;
-        bottom: 3em;
-        right: 2em;
+
+      #slide-bst, #slide-def, #slide-twin {
+        font-size: 1.1em;
       }
+      #slide-research {
+        font-size: 1.1em;
+      }
+
+      #saliva {
+        float: right;
+        margin: 0.5em;
+      }
+
     </style>
   </head>
   <body>
     <textarea id="source">
 
 class: center, middle
-
 # Genetics, Obesity, and Treatments
-
-By Ahmet Ilten and Harry Minsky
-
+By Ahmet İlten and Harry Minsky
 ---
-
+class: middle
 # Agenda
-
-1. Introduction
-2. Deep-dive
-3. ...
-
+1. Hypothesis 
+2. Influence of genetics on obesity
+3. Linking genetics with use of obesity medications: Ozempic and Wegovy
+4. Conclusion
+---
+class: middle
+# Hypothesis
+Wegovy and Ozempic are only effective weight loss drugs for those who are genetically dispoed to having harder-to-satiate appetites.
+---
+class: middle
+# Influence of genetics on obesity
+1. The role of appetite in genetic susceptibility to obesity in early life 
+2. The neural basis of appetite and obesity: from genes to behaviour 
+3. The Body-Mass Index of Twins Who Have Been Reared Apart 
 ---
 
-class: center, middle
-# PART 1
+name: bst
+<span class="footnote">
+  Llewellyn CH, Kininmonth AR, Herle M, et al. Behavioural susceptibility theory: the role of appetite in genetic susceptibility to obesity in early life. Philos Trans R Soc Lond B Biol Sci. 2023;378(1885):20220223. doi:10.1098/rstb.2022.0223
+</span>
+
+# Behavioural susceptibility theory 
+
+The role of **appetite** in genetic susceptibility to obesity in early life 
+
+[Article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363697/) from NIH reviews the research findings to understand how genetic susceptibility and appetite play roles in childhood obesity. 
+
+--
+name: bst
+
+Key Takeaways: 
+
+- Genetic susceptibility plays a significant role, influencing variations in early appetite, which is present from birth.
+
+--
+name: bst
+
+- Early appetite is heritable, correlates with overconsumption, predicts future weight gain, and shares common genetic influences with overall weight.
+
+--
+name: bst
+
+- Children with a strong appetite are more prone to overeating and obesity when surrounded by pervasive food cues, while those with a smaller appetite are less likely to become obese, regardless of their food environment.
+
 
 ---
+name: def
 
-class: center, middle
-# PART 2 
+<span class="footnote">
+  Farooqi, I Sadaf. “Defining the neural basis of appetite and obesity: from genes to behaviour.” Clinical medicine (London, England) vol. 14,3 (2014): 286-9. doi:10.7861/clinmedicine.14-3-286
+</span>
+
+# Defining the neural basis of appetite and obesity: from genes to behaviour
+
+[Article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4952542/) from NIH discusses how genetic studies have contributed to our understanding of the mechanisms involved in the regulation of body weight.
+
+--
+name: def
+
+Key Takeaways: 
+
+- Family, twin and adoption studies suggest that the heritability of body weight ranges between 40% and 70%.
+
+--
+name: def
+
+- The hormone leptin, produced by fat cells, plays a vital role in signaling the body's need for food. Genetic mutations in leptin pathways can lead to an intense drive to eat and impaired satiety. 
+
+--
+name: def
+
+- Understanding genetic factors contributing to obesity can guide the development of targeted therapies. For example, treatment with recombinant human leptin injections for individuals with genetic disposition leptin deficiency. 
+
+---
+name: twin 
+
+<span class="footnote">
+  Stunkard, Albert J., et al. “The body-mass index of twins who have been reared apart.” New England Journal of Medicine, vol. 322, no. 21, 1990, pp. 1483–1487, doi:10.1056/nejm199005243222102. 
+</span>
+
+# The Body-Mass Index of Twins Who Have Been Reared Apart
+
+[Article](https://www.nejm.org/doi/full/10.1056/nejm199005243222102) from The New England Journal of Medicine analyzes body mass index of twins who has been reaared apart.
+
+--
+name: twin 
+
+Key Takeaways: 
+
+- Strong influence of heredity on body mass index. 0.70 for men and 0.66 for women.
+
+--
+name: twin
+
+- Nonadditive genetics effects are significant. Not just having certain genes but how those genes work together.
+
+--
+name: twin 
+
+- Neither the shared rearing environment nor correlated environments contributed to variation in the body-mass index.
+
 ---
 # Ozempic and Wegovy: What the Hell?
 <img width="360" height="220" src="img/wegovyAd.webp"/>
@@ -65,26 +157,25 @@ class: center, middle
 1. The first six amino acids of GLP-1 are missing
 2. Substitutions are made at GLP positions 8 and 34 
 3. Ends with a chain of 17 carbon atoms and a carboxyl group
+
 ---
 # Use as a obesity drug
 <img width="460" height="420" src="img/headlines.png"/>
-<span class="footnote">
-  hello
-</span>
 ---
+class: middle
 # Genetic Disposition
-- Question: If genetics can affect obesity
+Question: If genetics can affect obesity
 in individuals, do genetics also influence the effectiveness of obesity treatments? 
 Furthermore, what kinds of obesity would be best treated by Semaglutide?
 ---
-# Hypothesis
-Wegovy and Ozempic are only effective weight loss drugs for those who 
-are genetically dispoed to having harder-to-satiate appetites
-
+class: middle
+# Hypothesis Revisited
+Wegovy and Ozempic are only effective weight loss drugs for those who are genetically dispoed to having harder-to-satiate appetites
 ---
+name: research
 # Research
-<img width="330" height="210" src="img/research.webp"/>
-<br>
+<img id="saliva" width="330" height="210" src="img/research.webp"/>
+
 Tests performed at the Mayo Clinic using saliva found that:
  1. Those who possessed genes that were linked to uncontrolled appetite were more likely to benefit from semaglutide injections
  2. The effects of semaglutide injections on those with genes related to slow metabolisms were less likely to benefit
@@ -93,24 +184,26 @@ Tests performed at the Mayo Clinic using saliva found that:
  almost all cases, suggesting that Semaglutide is a more effective appetite inhibitor for those genetically disposed to certain kinds
  of obesity
 
+<span class="footnote">
+ Park, Alice. “Your DNA Could Determine the Best Weight Loss Drug for You.” Time, Time, 30 June 2023, <a = href="https://time.com/6290767/weight-loss-drug-genetic-test-ozempic-wegovy/">time.com/6290767/weight-loss-drug-genetic-test-ozempic-wegovy/</a>  
+</span>
 
 ---
+class: middle
 # Conclusion
 
-1. Obesity is influenced by a multitude of heritable genetic factors 
-2. Weight-loss drugs that surpress appetite are most effective in subsection of persons 
-who possess the genetics that make their appetite harder to satisfy.
+1. Obesity is influenced by a multitude of heritable genetic factors, such as apetite or variations in the hormone leptin. 
+2. Weight-loss drugs that surpress appetite are most effective in subsection of persons who possess the genetics that make their appetite harder to satisfy.
 
-<span class="footer">
-  <a href="https://time.com/6290767/weight-loss-drug-genetic-test-ozempic-wegovy/
-  ">Reference</a>
-</span>
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript">
     </script>
     <script type="text/javascript">
-      var slideshow = remark.create();
+      var slideshow = remark.create(
+      {
+        countIncrementalSlides: false 
+      });
     </script>
   </body>
 </html
